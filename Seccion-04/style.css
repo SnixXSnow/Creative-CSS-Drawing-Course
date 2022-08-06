@@ -257,3 +257,37 @@ body{
     top: -3px;
     border-bottom: 1px solid black;
 }
+
+.hair-3{
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    background: transparent;
+    top: 154px;
+    transform: rotate(-12deg);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+.hair-3::before{
+    content: "";
+    width: 1px;
+    height: 36px;
+    background-color: #000;
+    position: absolute;
+    top: -5px;
+    left: 12px;
+    transform: rotate(-45deg);
+}
+
+.hair-3::after{
+    content: "";
+    width: 1px;
+    height: 37px;
+    background-color: #000;
+    position: absolute;
+    top: -6px;
+    right: 12px;
+    transform: rotate(45deg);
+}
